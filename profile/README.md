@@ -1,73 +1,68 @@
 <div align="center">
 
-# DIBSE 2026
+<img src="https://raw.githubusercontent.com/mci-dibse-2026/.github/main/profile/assets/banner.svg" alt="DIBSE 2026 · Digital Business & Software Engineering · MCI Innsbruck" width="100%">
 
-**Digital Business & Software Engineering · MCI Innsbruck**
+<br><br>
 
-Gemeinsamer Arbeitsbereich für Übungen, Hausarbeiten und Projekte unseres Jahrgangs.
+<img src="https://img.shields.io/badge/Jahrgang-2026-38bdf8?style=for-the-badge&labelColor=0f172a" alt="Jahrgang 2026">
+<img src="https://img.shields.io/badge/MCI-Innsbruck-818cf8?style=for-the-badge&labelColor=0f172a" alt="MCI Innsbruck">
+<a href="https://github.com/mci-dibse-2026/.github/issues"><img src="https://img.shields.io/badge/Fragen%3F-Issues-22c55e?style=for-the-badge&labelColor=0f172a" alt="Fragen? Issues"></a>
 
 </div>
 
----
+<br>
 
-### Grundregel
+<table align="center" width="100%">
+<tr>
+<td align="center" width="33%"><h3>📦</h3><b>Ein Repo pro Abgabe</b><br><sub>Klarer Name, eigene Historie</sub></td>
+<td align="center" width="33%"><h3>🔒</h3><b>Privat bis zur Note</b><br><sub>Danach optional öffentlich</sub></td>
+<td align="center" width="33%"><h3>🌿</h3><b>Nie direkt auf <code>main</code></b><br><sub>Branch → Pull Request → Merge</sub></td>
+</tr>
+</table>
 
-**Ein Repository pro Abgabe** — privat bis zur Benotung, danach optional öffentlich.
+<br>
 
-### Namensschema
+## 🏷️ Benennen
 
-`<lv-kuerzel>-<thema>[-<gruppe>]` — klein, Bindestriche, keine Umlaute.
-
-```
-swe1-designpatterns-gruppe03
-ml-seminararbeit-anomaly-detection
-dbs-uebung02-normalisierung
-```
-
-### Repo-Struktur
-
-```
-README.md     Ziel, Team, Setup, Ausführung
-docs/         Ausarbeitung, Diagramme, Quellen
-src/          Quellcode
-tests/        Tests
+```text
+<lv-kuerzel>-<thema>[-<gruppe>]          z. B.  swe1-designpatterns-gruppe03
 ```
 
-### Workflow
+Kleinschreibung, Bindestriche, keine Umlaute.
 
-Auf `main` wird nicht direkt gearbeitet: Branch → Commit → Pull Request → Review → Merge.
-`main` ist damit jederzeit abgabefähig.
+## 🗂️ Aufbauen
+
+```text
+README.md    Ziel · Team · Setup · Ausführung
+docs/        Ausarbeitung · Diagramme · Quellen
+src/         Quellcode
+tests/       Tests
+```
+
+## 🚀 Arbeiten
 
 ```bash
-git switch -c feat/kapitel-3-methodik
+git switch -c feat/kapitel-3
 git commit -m "feat(docs): Kapitel 3 Methodik ergaenzt"
-git push -u origin feat/kapitel-3-methodik
+git push -u origin feat/kapitel-3
 ```
 
-Commit-Format nach [Conventional Commits](https://www.conventionalcommits.org/de/).
+Commit-Format nach [Conventional Commits](https://www.conventionalcommits.org/de/) · `main` bleibt jederzeit abgabefähig.
 
-### Nicht committen
-
-Zugangsdaten und `.env` · personenbezogene Daten · fremde Skripten und Vorlesungsunterlagen ·
-generierte Ordner (`node_modules/`, `venv/`, `dist/`) · große Datensätze
-→ [.gitignore-Vorlagen](https://github.com/github/gitignore)
+## 🚫 Nicht committen
 
 > [!CAUTION]
-> Ein einmal gepushtes Secret gilt als kompromittiert — auch nach dem Löschen des Commits.
-> Keys und Tokens danach rotieren.
+> Zugangsdaten & `.env` · personenbezogene Daten · fremde Skripten & Unterlagen · `node_modules/`, `venv/`, `dist/` · große Datensätze
+>
+> Ein gepushtes Secret gilt als kompromittiert — Keys danach rotieren. → [.gitignore-Vorlagen](https://github.com/github/gitignore)
 
-### Wissenschaftliche Praxis
+## ⚖️ Fair bleiben
 
-Öffentliche Repos sind Referenz, keine Vorlage. Übernommenen Code kennzeichnen, Quellen zitieren,
-KI-Einsatz so offenlegen, wie es die Lehrveranstaltung vorgibt. Maßgeblich sind immer die Vorgaben
-der Lehrenden und die Prüfungsordnung des MCI.
+> [!IMPORTANT]
+> Öffentliche Repos sind Referenz, keine Vorlage. Übernommenen Code kennzeichnen, Quellen zitieren, KI-Einsatz offenlegen — maßgeblich sind immer die Vorgaben der Lehrveranstaltung.
 
----
+<br>
 
 <div align="center">
-
-<sub>Zugang: Nachricht mit GitHub-Benutzernamen an ein Org-Mitglied · Fragen und Vorschläge → <a href="https://github.com/mci-dibse-2026/.github/issues">Issues</a></sub>
-
-<sub>Studentische Initiative des Jahrgangs DIBSE 2026 — kein offizieller Auftritt des MCI Management Center Innsbruck.</sub>
-
+<sub>Zugang? GitHub-Namen an ein Org-Mitglied schicken. &nbsp;·&nbsp; Studentische Initiative — kein offizieller Auftritt des MCI.</sub>
 </div>
